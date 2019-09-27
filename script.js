@@ -1,4 +1,4 @@
-var click = 50000000;
+var click = 0;
 var clickadd = 1;
 var iphone4s = "https://www.91-img.com/pictures/apple-iphone-4s-8gb-mobile-phone-large-1.jpg";
 var iphone5s = "https://images-na.ssl-images-amazon.com/images/I/81YP7pPzFCL._SL1500_.jpg";
