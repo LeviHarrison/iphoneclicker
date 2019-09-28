@@ -88,7 +88,7 @@ function buySomething(phone) {
     click = click - 10000;
     document.getElementById('ya').innerHTML = String(click);
     document.getElementById("phone").src = phone;
-    document.getElementById('model').innerHTML = "iPhone 4s";
+    document.getElementById('model').innerHTML = "iPhone 7";
     document.getElementById('perclick').innerHTML = String(clickadd);
     document.getElementById("iphone7").style.display = "none";
   }
