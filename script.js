@@ -3,7 +3,7 @@ var clickadd = 1;
 var iphone4s = "https://www.91-img.com/pictures/apple-iphone-4s-8gb-mobile-phone-large-1.jpg";
 var iphone5s = "https://images-na.ssl-images-amazon.com/images/I/81YP7pPzFCL._SL1500_.jpg";
 var iphone6 = "https://images-na.ssl-images-amazon.com/images/I/81aaPi-hh6L._SX569_.jpg";
-var iphone6plus = "https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-6-plus-spacegray?$device-lg$&wid=220&hei=335";
+var iphone6plus = "https://ss7.vzw.com/is/image/VerizonWireless/apple-ipShone-6-plus-spacegray?$device-lg$&wid=220&hei=335";
 var iphone6s = "https://www.att.com/catalog/en/idse/Apple/Apple%20iPhone%206s/Space%20Gray-hero-zoom.png"
 var iphone6splus = "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5872/5872536_sd.jpg;maxHeight=640;maxWidth=550"
 var iphone7 = "https://ss7.vzw.com/is/image/VerizonWireless/iphone7-front-matblk?$device-lg$";
@@ -21,6 +21,7 @@ function clickButton() {
       click = click + clickadd;
       document.getElementById('ya').innerHTML = String(click);
       document.getElementById('perclick').innerHTML = String(clickadd);
+      document.title = String(click) + " iPhones | iPhone Clicker";
     }
 
 function buySomething(phone) {
