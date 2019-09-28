@@ -173,7 +173,7 @@ function buySomething(phone) {
     click = click - 90000;
     document.getElementById('ya').innerHTML = String(click);
     document.getElementById("phone").src = phone;
-    document.getElementById('model').innerHTML = "iPhone 10";
+    document.getElementById('model').innerHTML = "iPhone X";
     document.getElementById('perclick').innerHTML = String(clickadd);
     document.getElementById("iphone10").style.display = "none";
     document.getElementById("iphone8plus").style.display = "none";
@@ -194,7 +194,7 @@ function buySomething(phone) {
     document.getElementById('ya').innerHTML = String(click);
     document.getElementById("phone").style.width = "25%";
     document.getElementById("phone").src = phone;
-    document.getElementById('model').innerHTML = "iPhone 10s";
+    document.getElementById('model').innerHTML = "iPhone Xs";
     document.getElementById('perclick').innerHTML = String(clickadd);
     document.getElementById("iphone10s").style.display = "none";
     document.getElementById("iphone10").style.display = "none";
